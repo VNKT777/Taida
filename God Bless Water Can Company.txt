@@ -1,0 +1,27 @@
+God Bless!
+Water can services.
+- Drinking Water
+- House Usage & Cleaning Water
+- login for Admin
+	- Login
+	- Identities: Name, Mobile Number of Delivery Person, City.
+	- Read orders from database
+	- Accept and Reject orders
+	- Add products
+
+- Customer OTP and register with mobile phone number add address.
+	- Name, Mobile number, Address, City
+	- Request Water Service (Drinking / Bathing)
+	- No Refunds! 
+	- Remove products
+
+- 3 Databases 
+
+	-Customer - Request and Delete orders
+	-Admin - Accept, Complete and Cancel orders
+	-Orders
+	-Products
+Room Cleaning/Maintainence Service.
+- Cleaners login
+	- Name, Mobile Number
+ 

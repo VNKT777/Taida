@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "UTF-8">
+	<title>174266</title>
+	<meta name = "viewport" content = "width=device-width, intial-scale=1">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap">
+	<link rel="stylesheet" href="styles/re1et.css">
+	<link rel="stylesheet" href="styles/desb1ug.css">
+	<link rel="stylesheet" href="styles/ar1ticle.css">
+	<link rel="stylesheet" href="styles.css">
+	<style>
+
+
+
+
+
+
+	</style> 
+
+
+
+</head>
+<body>
+	<p>
+	<br>
+	<br>
+	<br>
+	<br>
+  	<div>
+    	<center><h1 style="font-size: 305%">Blog for The Project</h1></center>
+	</div>
+</p>
+
+
+	<!--
+	<div class="container">
+	
+	<img align="center" src="C:\Users\Venkat\Desktop\Cloud Computing Project\God BlessProject 2\God Bless Water Background.jpg">
+	
+	<div style="position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);font-size: 350%;"><h1>Brook Watr!</h1>
+  		<center><button class="button"> Purchase </button></center>
+  	</div>
+  	</div>
+  -->
+
+	<ul>
+
+  	<li><a href="#Home" >Home</a></li>
+
+  	<li style="float:right"><a href="#RF">References</a></li>
+
+
+  	<li style="float:right"><a href="#FW">Future Works</a></li>
+
+  	<li style="float:right"><a href="#C">Conclusion</a></li>
+
+
+  	<li style="float:right"><a href="#R">Results</a></li>
+
+  	<li style="float:right"><a href="#XP">Experimentation</a></li>
+
+  	<li style="float:right"><a href="#PP">Pre-Processing</a></li>
+
+  	<li style="float:right"><a href="#DS">Dataset</a></li>
+  	<li style="float:right"><a href="#LR">Literature Review</a></li>
+  	<li style="float:right"><a href="#Introduction">Introduction</a></li>
+	</ul>
+	
+	<br>
+	<p id='Mission'style="text-align: center;color: black">Project by Venkat Narayan Gnanaguruparan 174266</p>
+
+
+	<h2>
+	This Blog is an demonstraion of using cloud computing technique to host the blog for my final year research project using Amazon S3, Route 53, CloudFront and ACM. The contents of the blog
+	here are used as an example to demonstrate the information that is shared but are not developed as a part of cloud computing project.</h2>
+	
+	<center >
+		<h2  id='Introduction' style="color: black; font-size: 250%; ">Introduction <h2>
+	</center>
+	
+<p class="debug-center" style="text-align: justify; padding: 5px"> 
+	<br>
+	Example: Thanks to the advancement of deep learning, face recognition has been remarkably incorporated in most biometric systems. Thus facial biometric systems are widely used in various applications,including mobile phone authentication, access control and face payment. Face-spoofing attacks,in which a spoofed face is presented to the biometric system in an attempt to be authenticated, are becoming a inevitable threat. Therefore, face-spoofing detection has become a critical requirements for any face recognition system to filter out fake faces. While face anti-spoofing techniques have received much attention to aim at identifying whether the captured face is genuine or fake, most face-spoofing detection techniques are biased towards a specific presentation attack type or presentation device; failing to robustly detects various spoofing scenarios.
+	<br>
+	To mitigate this problem, we aim at developing a generalizable face-spoofing framework which able to accurately identify various spoofing attacks and devices.Face anti-spoofing techniques have received much attention and several anti-spoofing approaches have been introduced in retrospective studies.
+	While numerous machine learning models have been developed to discover artifacts in spoof images, the performance of spoofing models in practical settings is still far from perfect due to the
+	following challenges. First, the available spoofing attack datasets	are limited and bias to several environmental and capture settingsas compared to other computer vision tasks such as image classification for which there exist large-scale labelled datasets, like ImageNet.
+
+	</p>
+
+
+	<center >
+		<h2  id='LR' style="color: black; font-size: 250%; ">Literature Review <h2>
+	</center>
+
+<p>
+	Example: Recently, different studies have evaluated the difficulty of detecting whether faces are real or artificially generated. Images synthesized by GAN models are difficult to detect as they are realistic and are of high quality.<br><br>
+	Zhang et al. [7], used classifiers like SVM, random forest (RF) and multi-layer perceptron (MLP) for discriminating swapped face images from the genuine images. Agarwal and Varshney [8] developed the GAN-based deepfake detection as a hypothesis testing problem where a statistical framework was introduced using the <br><br>information-theoretic study of authentication. Hsu et al,[9] developed a two-phase deep learning method for fake image detection. The first phase is a feature extractor based on the common fake feature network (CFFN) where the Siamese network architecture used. The CFFN comprises of dense units, and each unit has different numbers of dense blocks to improve the representative capability for the fake images. The number of dense units is three or five depending on the validation data being face or general images, and the number of channels in units are altered.<br><br>
+	Wang et al. [10] developed FakeSpoter - a model which involved transfer learning of real and fake faces from deep face recognition systems (i.e., VGG-Face, OpenFace, and FaceNet), and then trained a SVM for the final classification. The authors tested their proposed approach using real faces from CelebA-HQ and FFHQ databases and synthetic faces created through InterFaceGAN and StyleGAN, achieving for the best performance a final 84.7% fake detection accuracy using the FaceNet model. <br><br>
+	Nataraj et al. [11], proposed a detection system based on a combination of pixel co-occurrence matrices and Convolutional Neural Networks (CNN). Their proposed approach was initially tested through a database of various objects and scenes created through CycleGAN. Fake detection systems inspired in steganalysis had also been developed.
+	Yu et al. (2019) [12] proposed a network architecture to map an input image to its corresponding fingerprint image. The special fingerprints produced by GAN architectures using deep learning methods was used for detection, they developed a model that learned a model fingerprint for each source of fake and real images, such that the correlation index between one image fingerprint and each model fingerprint serves as SoftMax logit for classification. However, this approach seemed not to be very robust against unseen simple image perturbation attacks such as noise, blur, cropping or compression, unless the models were re-trained. <br><br>
+	Marra et al. (2019) [13] performed an interesting study in order to detect unseen types of fake generated data. Their proposed detection approach, based on the XceptionNet model, achieved promising results being able to correctly detect new GAN generated images. Similarly, Dang et al. (2020) [14] carried out a complete analysis of different types of facial manipulations. They proposed to use attention mechanisms and popular CNN models such as Xception-Net and VGG16.<br><br>
+	The Fake detection approaches were based on the popular Xception network and ForensicTransfer, which is an Autoencoder approach. In general, the proposed models are heavy, requires a lot of computational power, more time and large datasets to accomplish results having high accuracy.<br><br>
+	<center><img src="OtherModels.PNG" style="width: 35%"></center>
+
+
+	</p>	<br><br>
+	
+	<center >
+		<h2  id='DS' style="color: black; font-size: 250%; ">Dataset <h2>
+	</center>
+	
+
+		<p>
+			Example:
+			Five different public datasets have been considered in the experimental framework. We now summarize the most important features.<br><br>
+			<b>A. Real Face Images</b><br> 
+			1) Flickr-Faces-HQ dataset [15]: The dataset consists of high-quality images resolution and contains considerable variation in terms of age, ethnicity and image background. It also has good coverage of accessories such as eyeglasses, sunglasses, hats, etc. The images were crawled from Flickr, thus inheriting all the biases of that website, and automatically aligned and cropped using dlib.<br> 
+ 			2) CelebFaces Attributes Dataset (CelebA) [16]:  This dataset is a large-scale face attributes dataset with more than 200K celebrity images, each with 40 attribute annotations. The images in this dataset cover large pose variations and background clutter. CelebA has large diversities, quantities, and rich annotations, including 10,177 number of identities and 202,599 number of face images.<br> 
+			3) Google Facial Expressions Dataset[17]: This dataset is a large-scale facial expression dataset comprising of face image triplets. Using face detection, we picked unique faces from the images<br><br>
+			
+			<b>B. Synthetic Face Images</b><br>
+
+			1) NVIDIA Fake Face Dataset [18]: NVIDIA proposed an alternative generator architecture for GAN that draws insights from style transfer techniques. The system can learn and separate different aspects of an image unsupervised; and enables intuitive, scale-specific control of the synthesis. A selected number of images were taken from the dataset that had around 1 Million synthesized face images to have a balanced dataset.<br><br>
+			2) Diverse Fake Face Dataset [19]: Comprises of multiple publicly available datasets and images that are synthesized or manipulated using deep learning methods. By incorporating multiple sources for real images, the dataset consists varying resolution and image quality for synthetic or manipulated images.<br><br>
+
+			<center><img src="DataDistribution.PNG" style="width: 35%"></center>
+
+		</p>
+
+
+	<center >
+		<h2  id='PP' style="color: black; font-size: 250%; ">Pre-Processing <h2>
+	</center>
+	
+
+		<p>
+			Example:
+			The images are resized to 224x224 and converted to tfrecord format to improvise GPU utilization while training. The tfRecord format is a simple format for storing a sequence of binary records. Protocol buffers are a cross-platform, cross-language library for efficient serialization of structured data. TfRecord is optimized for use with TensorFlow, it combines multiple datasets more efficiently and integrates with the data import and preprocessing functionality provided by the library. Using tfrecords the training time drastically decreased(~25x) and the storage in memory is about 5.9GB which is about half the memory consumed while storing them as JPEGS. The dataset proposed here is large (19 GB) to be stored fully in memory or the Kaggle notebook using TfRecord, the working data that is required at the time (e.g., a batch) was loaded from disk and then processed.<br>
+			The combined dataset has around 774,027 images of real and synthesized images and was split into 571,042 for Training, 101,513 images for Validation and 101,472 images for Testing.
+
+		</p>
+
+	<center >
+		<h2  id='XP' style="color: black; font-size: 250%; ">Experimentation<h2>
+	</center>
+	
+
+		<p>
+			Example:
+			Experiments on the combined dataset were carried out with modifications and additions to existing architectures such as Xception network[4] and Inception-ResNet[5] for detection of synthesized face. The models were trained, validated and tested with a batch size of 64. Training and validation of the models involved a total of 8922 iterations. Since the training dataset alone consists of more than 500,000 images, the model overfits in the first epoch, going through many iterations.<br>
+			Testing the models involved 1586 iterations.  Transfer learning was implemented and the existing models, namely Xception and Inception-ResNet started training with ImageNet weights. The networks were followed by global average pooling function and a dense layer consisting of 512 neurons with ReLU activation. Batch normalization is applied on the output from the dense layer to standardize the inputs. This stabilizes the learning process and reduces the number of epochs.<br>
+			Adam optimization - stochastic gradient descent method that is based on adaptive estimation of first-order and second-order moments is used with initial earning rate of 0.0001. Binary cross-entropy is used as the loss function.
+		</p>
+
+	<center >
+		<h2  id='PM' style="color: black; font-size: 250%; ">Proposed Model<h2>
+	</center>
+	
+
+		<p>
+			Example:
+			As observed while training and testing the existing architectures, the time and computational requirement is high. There is a need for a model with lighter architecture and minimal number of layers. The proposed model consists of 5 triplets of Batch normalization. <br><br>
+			<center><img src="Model Summary.png" style="width: 20%"></center>
+			<br><br> Convolution and Max Pooling layer totaling to 17 layers. The proposed model was attained through hypertuning.<br>
+			The model consists a total of 569,421 total parameters with 774 non-trainable parameters and 568,647 trainable parameters. <br>
+			<center><img src="Visual Model.PNG" style="width: 20%"></center>
+		</p>
+
+		<center >
+		<h2  id ='R' style="color: black; font-size: 250%; ">Results<h2>
+		</center>
+			<center><img src="Results.PNG" style="width: 50%"></center>
+			Example:
+			From the given results we can observe that the proposed model having minimal number of layers and lighter architecture achieves desirable accuracy as the other two existing architectures on the testing.<br>
+			The time taken to train the model indicates that it requires less computational power and is faster to train than the other heavy models.<br>
+			<center><img src="GB Confusion Matrix.PNG" style="width: 20%"></center><br>
+			From the confusion matrix it can be inferred that the model has achieved desirable accuracy without compromising other important parameters such as precision, recall and f1-score. We can see a reduction of 85% of XceptionNet in the training time and 84% from IncepnetResNet in the training time. The higher accuracy with a simpler model can be attributed to the large dataset size.<br>
+			
+		</p>
+	</center>
+
+	<center >
+		<h2  id='C' style="color: black; font-size: 250%; ">Conclusion<h2>
+	</center>
+	
+
+		<p>
+			Example:
+			Deepfakes erodes the trust of people in media contents. They cause confusion, chaos, distress and negative effects to the targeted audience, by generating disinformation and hate speech. This is critical, as the technologies for creating deepfakes are available to the public and social media platforms aid in spreading fake contents quickly. The synthesized faces can be used to create fake accounts which could be used to spread misinformation, create chaos, collect data and reduce trust of people on social media platforms. They could also be used to create fake identities that could be later used politically to alter votes and cheat the election systems. With the increase in digital face manipulation techniques, there is a necessity to continuously train and generate efficient models that require less computational power and time. The proposed model is able to achieve desirable accuracy with lesser computational power and time.
+
+		</p>
+
+<center >
+		<h2  id='FW' style="color: black; font-size: 250%; ">Future Works<h2>
+	</center>
+	
+
+		<p>
+			More hyper parameter tuning can help us achieve an even higher accuracy. Analyzing the model’s performance on a completely new dataset using the trained weights. 
+		</p>
+<center >
+		<h2  id='RF' style="color: black; font-size: 250%; ">References<h2>
+	</center>
+<p>
+	<br>
+	Example
+1.	Deep Learning for Deepfakes Creation and Detection: A Survey Thanh Thi Nguyen, Cuong M. Nguyen, Dung Tien Nguyen, Duc Thanh Nguyen, Saeid Nahavandi, Fellow, IEEE<br>
+2.	DeepFakes and Beyond: A Survey ofFace Manipulation and Fake Detection Ruben Tolosana, Ruben Vera-Rodriguez, Julian Fierrez, Aythami Morales and Javier Ortega-Garcia
+<br>
+3.	DFFD: Diverse Fake Face Dataset Hao Dang, Feng Liu, Joel Stehouwer, Xiaoming Liu, Anil Jain
+<br>
+4.	Xception: Deep Learning with Depthwise Separable Convolutions Franc¸ois Chollet Google, Inc. 
+<br>
+5.	Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning Christian Szegedy, Sergey Ioffe, Vincent Vanhoucke, Alex Alemi
+<br>
+6.	On the Detection of Digital Face Manipulation Hao Dang Feng Liu, Joel Stehouwer, Xiaoming Liu Anil
+<br>
+7.	Zhang, Y., Zheng, L., and Thing, V. L Automated face swapping and its detection. In 2017 IEEE 2nd International Conference on Signal and Image Processing (ICSIP) (pp. 15-19). IEEE.
+<br>
+8.	Agarwal, S., and Varshney, L. R. (2019). Limits of deepfake detection: A robust estimation viewpoint. arXiv preprint arXiv:1905.03493.
+<br>
+9.	Hsu, C. C., Zhuang, Y. X., and Lee, C. Y. (2020). Deep fake image detection based on pairwise learning. Applied Sciences, 10(1), 370.
+<br>
+10.	R. Wang, L. Ma, F. Juefei-Xu, X. Xie, J. Wang, and Y. Liu, “FakeSpotter: A Simple Baseline for Spotting AI-Synthesized Fake Faces,” arXivpreprint arXiv:1909.06122, 2019.
+<br>
+11.	L. Nataraj, T. Mohammed, B. Manjunath, S. Chandrasekaran, A. Flenner, J. Bappy, and A. Roy-Chowdhury, “Detecting GAN GeneratedFake Images Using Co-Occurrence Matrices,” Electronic Imaging,no. 5, pp. 1–7, 2019.
+<br>
+12.	N. Yu, L. Davis, and M. Fritz, “Attributing Fake Images to GANs:Analyzing Fingerprints in Generated Images,” in Proc. IEEE/CVFInternational Conference on Computer Vision, 2019.
+<br>
+13.	F. Marra, C. Saltori, G. Boato, and L. Verdoliva, “Incremental Learning for the Detection and Classification of GAN-Generated Images,” in Proc. IEEE International Workshop on Information Forensics and Security, 2019
+<br>
+14.	H. Dang, F. Liu, J. Stehouwer, X. Liu, and A. Jain, “On the Detection of Digital Face Manipulation,” in Proc. IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2020.
+<br>
+15.	https://github.com/NVlabs/ffhq-dataset
+<br>
+16.	Deep Learning Face Attributes in the Wild, Ziwei Liu, Ping Lui, Xiaogang Wang, Xiaoou Tang.
+<br>
+17.	A Compact Embedding for Facial Expression Similarity, Raviteja Vemulapalli, Aseem Agarwala arXiv:1811.11283v2 [cs.CV] 9 Jan 2019.
+<br>
+18.	A Style-Based Generator Architecture for Generative Adversarial Networks Tero Karras, Samuli Laine, Timo Aila  arXiv:1812.04948
+<br>
+19.	DFFD: Diverse Fake Face Dataset Hao Dang, Feng Liu, Joel Stehouwer, Xiaoming Liu, Anil Jain
+</p>
+
+
+
+
+
+
+
+</body>
+</html>
